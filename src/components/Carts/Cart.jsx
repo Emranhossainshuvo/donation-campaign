@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Cart = ({ data }) => {
 
     const { card_bg_color, category, category_bg_color, description, id, picture, price, text_button_bg_color, title } = data || {};
-    console.log(data)
+    // console.log(data)
     return (
 
         <div className="flex flex-col mb-6 rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
