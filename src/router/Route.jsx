@@ -3,12 +3,14 @@ import MainLayOut from "../layouts/MainLayOut";
 import Home from "../pages/Home/Home";
 import Donation from "../pages/donation/Donation";
 import Statistics from "../pages/Statistics/Statistics";
+import ErrorPage from "../pages/ErroPage/ErrorPage";
 
 
 const myCreatedRoute = createBrowserRouter([
     {
         path: "/", 
         element: <MainLayOut></MainLayOut>, 
+        errorElement: <ErrorPage></ErrorPage>,
         children: [
             {
                 path: "/", 
@@ -22,7 +24,11 @@ const myCreatedRoute = createBrowserRouter([
             {
                 path: "/statistics", 
                 element: <Statistics></Statistics>
-            }
+            }, 
+            // {
+            //     path: "/carts/:id", 
+            //     element: 
+            // }
         ]
     }
 ])

@@ -1,7 +1,18 @@
 [
     {
-        "picture": "https://i.ibb.co/X40VKtS/Education.png",
+        "picture": "https://i.ibb.co/v3bs0xM/Clothing.png",
         "id": 1,
+        "title": "Used Clothing Drive",
+        "category": "Clothing",
+        "category_bg_color": "#e74c3c",
+        "card_bg_color": "#f1c40f",
+        "text_button_bg_color": "#9b59b6",
+        "description": "Clothing donations involve giving gently used or new clothing items to those in need. These donations can include clothing for all ages, such as coats, shoes, socks, and everyday attire. Additionally, they may encompass specialized clothing for job interviews or professional attire to help individuals make a positive impression in the workforce. Clothing donations contribute to maintaining dignity and warmth for those experiencing hardship.",
+        "price": "$69.99"
+    },
+    {
+        "picture": "https://i.ibb.co/X40VKtS/Education.png",
+        "id": 2,
         "title": "Good education",
         "category": "Education",
         "category_bg_color": "#3498db",
@@ -10,17 +21,7 @@
         "description": "Education donations focus on providing resources and opportunities for learning and personal development. These donations can take the form of books, school supplies, educational software, scholarships, or financial support for educational institutions and programs. Education donations empower individuals to acquire knowledge and skills, enhancing their prospects for a brighter future.",
         "price": "$299.99"
     },
-    {
-        "picture": "https://i.ibb.co/ZJ4hzSq/Rectangle-4287-2.png",
-        "id": 2,
-        "title": "Better Food for Everyone",
-        "category": "Food",
-        "category_bg_color": "#e74c3c",
-        "card_bg_color": "#f1c40f",
-        "text_button_bg_color": "#9b59b6",
-        "description": "Food donations are essential items that provide nourishment and sustenance to individuals and families in need. These donations can include non-perishable items such as canned goods, rice, pasta, grains, and packaged foods. They play a vital role in addressing food insecurity and ensuring that everyone has access to an adequate and nutritious diet.",
-        "price": "$49.99"
-    },
+    
     {
         "picture": "https://i.ibb.co/Hn7tWhK/Rectangle-4284.png",
         "id": 3,
@@ -33,16 +34,17 @@
         "price": "$79.99"
     },
     {
-        "picture": "https://i.ibb.co/v3bs0xM/Clothing.png",
+        "picture": "https://i.ibb.co/ZJ4hzSq/Rectangle-4287-2.png",
         "id": 4,
-        "title": "Used Clothing Drive",
-        "category": "Clothing",
-        "category_bg_color": "#9b59b6",
-        "card_bg_color": "#3498db",
-        "text_button_bg_color": "#f39c12",
-        "description": "Clothing donations involve giving gently used or new clothing items to those in need. These donations can include clothing for all ages, such as coats, shoes, socks, and everyday attire. Additionally, they may encompass specialized clothing for job interviews or professional attire to help individuals make a positive impression in the workforce. Clothing donations contribute to maintaining dignity and warmth for those experiencing hardship.",
-        "price": "$19.99"
+        "title": "Better Food for Everyone",
+        "category": "Food",
+        "category_bg_color": "#e74c3c",
+        "card_bg_color": "#f1c40f",
+        "text_button_bg_color": "#9b59b6",
+        "description": "Food donations are essential items that provide nourishment and sustenance to individuals and families in need. These donations can include non-perishable items such as canned goods, rice, pasta, grains, and packaged foods. They play a vital role in addressing food insecurity and ensuring that everyone has access to an adequate and nutritious diet.",
+        "price": "$49.99"
     },
+    
     {
         "picture": "https://i.ibb.co/X40VKtS/Education.png",
         "id": 5,
@@ -81,26 +83,16 @@
         "id": 8,
         "title": "Used Clothing Drive",
         "category": "Clothing",
-        "category_bg_color": "#e74c3c",
-        "card_bg_color": "#f1c40f",
-        "text_button_bg_color": "#9b59b6",
+        "category_bg_color": "#9b59b6",
+        "card_bg_color": "#3498db",
+        "text_button_bg_color": "#f39c12",
         "description": "Clothing donations involve giving gently used or new clothing items to those in need. These donations can include clothing for all ages, such as coats, shoes, socks, and everyday attire. Additionally, they may encompass specialized clothing for job interviews or professional attire to help individuals make a positive impression in the workforce. Clothing donations contribute to maintaining dignity and warmth for those experiencing hardship.",
-        "price": "$69.99"
+        "price": "$19.99"
     },
-    {
-        "picture": "https://i.ibb.co/X40VKtS/Education.png",
-        "id": 9,
-        "title": "Good education",
-        "category": "Education",
-        "category_bg_color": "#e67e22",
-        "card_bg_color": "#d5dbdb",
-        "text_button_bg_color": "#e74c3c",
-        "description": "Education donations focus on providing resources and opportunities for learning and personal development. These donations can take the form of books, school supplies, educational software, scholarships, or financial support for educational institutions and programs. Education donations empower individuals to acquire knowledge and skills, enhancing their prospects for a brighter future.",
-        "price": "$89.99"
-    },
+    
     {
         "picture": "https://i.ibb.co/ZJ4hzSq/Rectangle-4287-2.png",
-        "id": 10,
+        "id": 9,
         "title": "Better Food for Everyone",
         "category": "Food",
         "category_bg_color": "#9b59b6",
@@ -109,9 +101,10 @@
         "description": "Food donations are essential items that provide nourishment and sustenance to individuals and families in need. These donations can include non-perishable items such as canned goods, rice, pasta, grains, and packaged foods. They play a vital role in addressing food insecurity and ensuring that everyone has access to an adequate and nutritious diet.",
         "price": "$24.99"
     },
+    
     {
         "picture": "https://i.ibb.co/Hn7tWhK/Rectangle-4284.png",
-        "id": 11,
+        "id": 10,
         "title": "Clean water for childrena",
         "category": "Health",
         "category_bg_color": "#27ae60",
@@ -120,9 +113,10 @@
         "description": "Health donations encompass a wide range of items that promote well-being and address healthcare needs. These donations can include medical supplies, first aid kits, hygiene products, prescription medications, and even financial contributions to medical bills or healthcare organizations. Health donations contribute to improving the physical and mental well-being of individuals and communities.",
         "price": "$49.99"
     },
+    
     {
         "picture": "https://i.ibb.co/v3bs0xM/Clothing.png",
-        "id": 12,
+        "id": 11,
         "title": "Used Clothing Drive",
         "category": "Clothing",
         "category_bg_color": "#f39c12",
@@ -130,5 +124,16 @@
         "text_button_bg_color": "#3498db",
         "description": "Clothing donations involve giving gently used or new clothing items to those in need. These donations can include clothing for all ages, such as coats, shoes, socks, and everyday attire. Additionally, they may encompass specialized clothing for job interviews or professional attire to help individuals make a positive impression in the workforce. Clothing donations contribute to maintaining dignity and warmth for those experiencing hardship.",
         "price": "$19.99"
+    },
+    {
+        "picture": "https://i.ibb.co/X40VKtS/Education.png",
+        "id": 12,
+        "title": "Good education",
+        "category": "Education",
+        "category_bg_color": "#e67e22",
+        "card_bg_color": "#d5dbdb",
+        "text_button_bg_color": "#e74c3c",
+        "description": "Education donations focus on providing resources and opportunities for learning and personal development. These donations can take the form of books, school supplies, educational software, scholarships, or financial support for educational institutions and programs. Education donations empower individuals to acquire knowledge and skills, enhancing their prospects for a brighter future.",
+        "price": "$89.99"
     }
 ]
