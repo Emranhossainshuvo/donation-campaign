@@ -6,7 +6,7 @@ const CartDetails = () => {
 
     const [detail, setDetail] = useState({});
 
-
+    const { category, description, picture, price } = detail || {};
 
     const { id } = useParams();
     const idInt = parseInt(id);
@@ -23,15 +23,15 @@ const CartDetails = () => {
 
 
     return (
-        <div>
+        <div className="w-5/6 mt-24 mx-auto">
             <div className="card w-auto bg-base-100 shadow-xl">
-                <figure><img className="w-full relative h-[700px]" src={detail.picture} alt="Shoes" /></figure>
+                <figure><img className="w-full relative h-[700px]" src={picture} alt="Shoes" /></figure>
                 <div className="bg-black h-32  flex relative -mt-32 bg-opacity-50 justify-start">
-                    <button className="rounded-lg hover:shadow-xl shadow-gray-400 w-44 h-14 border-none mt-9 ms-9 text-white bg-[#FF444A]">Donate {detail.price}</button>
+                    <button className="rounded-lg hover:shadow-xl shadow-gray-400 w-44 h-14 border-none mt-9 ms-9 text-white bg-[#FF444A]">Donate {price}</button>
                 </div>
                 <div className="card-body">
-                    <h2 className="card-title">Shoes!</h2>
-                    <p>If a dog chews shoes whose shoes does he choose?</p>
+                    <h2 className="card-title"> {category} </h2>
+                    <p>{description}</p>
                 </div>
             </div>        </div>
     );

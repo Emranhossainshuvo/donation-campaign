@@ -3,7 +3,7 @@
 const NavLogo = () => {
     return (
         <div>
-            <img src="/Resources/Logo.png" alt="" />
+            <img src="https://i.ibb.co/BCSKQDW/Logo.png" alt="" />
         </div>
     );
 };
