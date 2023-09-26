@@ -9,11 +9,11 @@ import 'react-toastify/dist/ReactToastify.css'
 const CartDetails = () => {
 
 
-    
+
 
     const [detail, setDetail] = useState({});
 
-    const { category, description, picture, price } = detail || {};
+    const { category, description, picture, price, text_color } = detail || {};
 
     const handleAddToDonation = () => {
         // console.log(detail)
@@ -21,25 +21,25 @@ const CartDetails = () => {
         const addedDonation = [];
 
         const donation = JSON.parse(localStorage.getItem('donation-data'));
-        
-        if(!donation){
+
+        if (!donation) {
             addedDonation.push(detail)
             localStorage.setItem('donation-data', JSON.stringify(addedDonation))
-        }else{
+        } else {
 
             const isExist = donation?.find(item => item.id == id)
-            if(!isExist){
+            if (!isExist) {
                 addedDonation.push(...donation, detail)
                 localStorage.setItem('donation-data', JSON.stringify(addedDonation))
             }
 
         }
-        
+
 
         // console.log(donation)
-            
-    toast('You are done')
-        
+
+        toast('You are done')
+
     }
 
     const { id } = useParams();
@@ -61,7 +61,7 @@ const CartDetails = () => {
             <div className="card w-auto bg-base-100 shadow-xl">
                 <figure><img className="w-full cover relative h-[700px]" src={picture} alt="Shoes" /></figure>
                 <div className="bg-black h-32  flex relative -mt-32 bg-opacity-50 justify-start">
-                        <button onClick={handleAddToDonation} className="rounded-lg hover:shadow-xl shadow-gray-400 w-44 h-14 border-none mt-9 ms-9 text-white bg-[#FF444A]">Donate {price}</button>
+                    <button style={{ backgroundColor: text_color }} onClick={handleAddToDonation} className="rounded-lg hover:shadow-xl shadow-gray-400 w-44 h-14 border-none mt-9 ms-9 text-white">Donate {price}</button>
                     <ToastContainer />
                 </div>
                 <div className="card-body">
