@@ -5,7 +5,7 @@ const DonatedItem = ({ donated }) => {
     console.log(donated);
     return (
         <div>
-            <div className="card card-side bg-base-100 shadow-xl">
+            <div className="card mt-8 card-side bg-base-100 shadow-xl">
                 <figure><img src={picture} alt="Movie" /></figure>
                 <div className="card-body">
                     <p>{category}</p>

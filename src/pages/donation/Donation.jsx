@@ -8,6 +8,8 @@ const Donation = () => {
 
     const [noFound, setNoFound] = useState("")
 
+    const [isShow, setIsShow] = useState(false)
+
     useEffect(()=> {
         const donationItems = JSON.parse(localStorage.getItem('donation-data'))
         if(donationItems){
@@ -16,7 +18,8 @@ const Donation = () => {
             setNoFound("No data found")
         }
     }, [])
-
+    
+    console.log(isShow);
     console.log(donation)
 
     return (
@@ -31,6 +34,7 @@ const Donation = () => {
                         </DonatedItem>)
                     }
                 </div>
+                <button onClick={()=> setIsShow(!isShow)} className="bg-green-700 hover:bg-green-800 hover:shadow-green-950 hover:shadow-sm text-white p-2 rounded-md">See more</button>
             </div> }
         </div>
     );
