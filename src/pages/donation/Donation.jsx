@@ -29,20 +29,20 @@ const Donation = () => {
                 <div>
                     <div className="grid grid-cols-1 md:grid-cols-2">
                         {
-                            isShow 
-                            ?
-                             donation?.map(item => <DonatedItem key={item.id} donated={item}>
+                            isShow
+                                ?
+                                donation?.map(item => <DonatedItem key={item.id} donated={item}>
 
-                            </DonatedItem>) 
-                            :
-                             donation?.slice(0, 4).map(item => <DonatedItem key={item.id} donated={item}>
+                                </DonatedItem>)
+                                :
+                                donation?.slice(0, 4).map(item => <DonatedItem key={item.id} donated={item}>
 
-                            </DonatedItem>)
+                                </DonatedItem>)
                         }
                     </div>
-                   {
-                    donation.length > 4 &&  <button onClick={() => setIsShow(!isShow)} className="bg-green-700 block mx-auto px-5 mt-6 hover:bg-green-800 hover:shadow-green-950 hover:shadow-sm text-white p-2 rounded-md">{isShow ? "Show less" : "See more"}</button>
-                   }
+                    {
+                        donation.length > 4 && <button onClick={() => setIsShow(!isShow)} className="bg-green-700 block mx-auto px-5 mt-6 hover:bg-green-800 hover:shadow-green-950 hover:shadow-sm text-white p-2 rounded-md">{isShow ? "Show less" : "See more"}</button>
+                    }
                 </div>}
         </div>
     );
