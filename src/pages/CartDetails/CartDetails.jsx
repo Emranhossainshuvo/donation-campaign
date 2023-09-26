@@ -16,7 +16,7 @@ const CartDetails = () => {
     const { category, description, picture, price } = detail || {};
 
     const handleAddToDonation = () => {
-        console.log(detail)
+        // console.log(detail)
 
         const addedDonation = [];
 
@@ -26,12 +26,17 @@ const CartDetails = () => {
             addedDonation.push(detail)
             localStorage.setItem('donation-data', JSON.stringify(addedDonation))
         }else{
-            addedDonation.push(...donation, detail)
-            localStorage.setItem('donation-data', JSON.stringify(addedDonation))
+
+            const isExist = donation?.find(item => item.id == id)
+            if(!isExist){
+                addedDonation.push(...donation, detail)
+                localStorage.setItem('donation-data', JSON.stringify(addedDonation))
+            }
+
         }
         
 
-        console.log(donation)
+        // console.log(donation)
             
     toast('You are done')
         
