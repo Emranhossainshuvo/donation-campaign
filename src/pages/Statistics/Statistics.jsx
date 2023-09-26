@@ -7,7 +7,7 @@ import { useLoaderData } from 'react-router-dom';
 const Statistics = () => {
     const data = useLoaderData(); 
 
-    // console.log(data)
+    console.log(data)
     return (
         <div>
 

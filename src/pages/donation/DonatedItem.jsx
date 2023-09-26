@@ -2,7 +2,7 @@ import PropTypes from 'prop-types'
 
 const DonatedItem = ({ donated }) => {
     const { picture, price, title, category, card_bg_color, text_color, category_bg_color } = donated || {};
-    console.log(donated);
+    // console.log(donated);
     return (
         <div>
             <div style={{ backgroundColor: card_bg_color }} className="card ms-6 p-4 mt-8 card-side bg-base-100 shadow-xl">

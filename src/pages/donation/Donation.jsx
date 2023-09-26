@@ -19,8 +19,8 @@ const Donation = () => {
         }
     }, [])
 
-    console.log(isShow);
-    console.log(donation)
+    // console.log(isShow);
+    // console.log(donation)
 
     return (
         <div>
