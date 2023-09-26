@@ -1,4 +1,5 @@
-.banner-img{
-    background-image: url('9363713_4090360.jpg');
-    background-size: contain;
+.banner-img {
+    background-image: url('team-volunteers-holding-donation-boxes-looking-camera.jpg');
+    background-size: cover;
+    opacity: 0.7;
 }
