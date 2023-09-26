@@ -7,6 +7,9 @@ import { useLoaderData } from 'react-router-dom';
 const Statistics = () => {
     const data = useLoaderData(); 
 
+    const localData = localStorage.getItem('donation-data'); 
+    console.log(JSON.parse(localData))
+
     console.log(data)
     return (
         <div>
